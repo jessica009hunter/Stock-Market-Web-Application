@@ -1,0 +1,81 @@
+div.formHead{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 80%;
+    
+    /*border: solid;*/
+    /*border-color: aqua*/
+}
+
+div.formBody{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 80%;
+    /*border: solid;*/
+    /*border-color: aqua*/
+}
+
+hr.hrow{
+    width:80%;
+}
+
+
+/* highlight results */
+.ui-autocomplete span.hl_results {
+    background-color: #ffff66;
+}
+
+/* scroll results */
+.ui-autocomplete {
+    max-height: 400px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding for vertical scrollbar */
+    padding-right: 5px;
+}
+
+.ui-autocomplete li {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    div.formHead{
+        width: 96%;
+    }
+    div.formBody{
+        width: 96%;
+    }
+    hr.hrow{
+        width: 96%;
+    }
+/*
+    .curStockPill {
+        content: "Stocks";
+    }
+    .hisChartPill {
+        content: "Chart";
+    }
+    .newsFeedPill {
+        content: "News";
+    }
+*/
+    .nav-pills>li {
+        float: left;
+    }
+}
+
+
